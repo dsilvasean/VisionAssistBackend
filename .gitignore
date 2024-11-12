@@ -1,0 +1,4 @@
+.VisionAssistBackend-env/
+__pycache__/
+data/fine_tuned_model
+data/results

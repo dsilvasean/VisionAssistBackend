@@ -1,0 +1,262 @@
+input,intent
+"Show all open windows",show_windows
+"What windows are open?",show_windows
+"Display the open windows",show_windows
+"List the active windows",show_windows
+"Show me the current windows",show_windows
+"Can you show all the windows?",show_windows
+"Which windows are running?",show_windows
+"Show open applications",show_windows
+"Display the open apps",show_windows
+"List all the active windows",show_windows
+
+"Switch to the Google Chrome window",switch_window
+"Switch to Word",switch_window
+"Switch to the next window",switch_window
+"Switch windows",switch_window
+"Can you change the window?",switch_window
+"Switch to the other app",switch_window
+"Move to the browser window",switch_window
+"Change to the email window",switch_window
+"Switch to Visual Studio Code",switch_window
+"Go to the Spotify window",switch_window
+
+"Check the system status",check_system_status
+"What’s the current system status?",check_system_status
+"Show me the system status",check_system_status
+"Check the health of the system",check_system_status
+"How’s the system performing?",check_system_status
+"Tell me the system status",check_system_status
+"Can you show system health?",check_system_status
+"What's the status of the system?",check_system_status
+"Show the status of my system",check_system_status
+"How is the system running?",check_system_status
+
+"Close the window",close_window
+"Shut down the window",close_window
+"Can you close this window?",close_window
+"Close the current app",close_window
+"Close the active window",close_window
+"Exit the window",close_window
+"Close this",close_window
+"Quit the window",close_window
+"Close the program",close_window
+"End the active app",close_window
+
+"What’s the time?",check_time
+"Tell me the current time",check_time
+"What time is it now?",check_time
+"Can you give me the time?",check_time
+"Show me the time",check_time
+"What’s the time right now?",check_time
+"Check the time for me",check_time
+"Tell me the time",check_time
+"What time is it?",check_time
+"Give me the current time",check_time
+
+"Check the internet speed",check_internet_speed
+"How fast is my internet?",check_internet_speed
+"Measure the network speed",check_internet_speed
+"Check my internet connection speed",check_internet_speed
+"How’s the Wi-Fi speed?",check_internet_speed
+"Test the internet speed",check_internet_speed
+"Show me the speed of the internet",check_internet_speed
+"Run an internet speed test",check_internet_speed
+"Check the download and upload speed",check_internet_speed
+"Perform a speed test",check_internet_speed
+
+"Hello",greet
+"Hi there",greet
+"Good morning",greet
+"Good evening",greet
+"Hey",greet
+"Hello assistant",greet
+"Hi, how are you?",greet
+"Hey, good to see you",greet
+"Hi there, Eve",greet
+"Greetings",greet
+"Good day to you",greet
+"What's up?",greet
+"Hi Eve",greet
+"How’s it going?",greet
+"Hey, how are you?",greet
+
+"Exit",exit
+"Goodbye",exit
+"Close the assistant",exit
+"Shut down",exit
+"End this session",exit
+"Stop the assistant",exit
+"Quit",exit
+"Turn off",exit
+"I’m done",exit
+"Bye-bye",exit
+"Leave now",exit
+"That's enough, exit",exit
+"Terminate session",exit
+"I need to go, exit",exit
+"Finish and close",exit
+
+"Open Google Chrome",open_app
+"Start the calculator",open_app
+"Launch Microsoft Word",open_app
+"Open Spotify",open_app
+"Start Notepad",open_app
+"Open the browser",open_app
+"Run Photoshop",open_app
+"Launch Excel",open_app
+"Open Visual Studio Code",open_app
+"Start the camera",open_app
+"Launch the terminal",open_app
+"Run Outlook",open_app
+"Open VLC player",open_app
+"Launch Zoom",open_app
+"Start PowerPoint",open_app
+
+"Search Wikipedia for Albert Einstein",search_wikipedia
+"Look up history of AI on Wikipedia",search_wikipedia
+"Find information about Python on Wikipedia",search_wikipedia
+"Search Wikipedia for quantum physics",search_wikipedia
+"Look up machine learning on Wikipedia",search_wikipedia
+"Search Wikipedia for Barack Obama",search_wikipedia
+"Find the article about climate change on Wikipedia",search_wikipedia
+"Search Wikipedia for space exploration",search_wikipedia
+"Look up human anatomy on Wikipedia",search_wikipedia
+"Search for the biography of Steve Jobs on Wikipedia",search_wikipedia
+"Look up the history of the internet on Wikipedia",search_wikipedia
+"Find the Wikipedia article about blockchain",search_wikipedia
+"Search for World War II on Wikipedia",search_wikipedia
+"Look up artificial intelligence history on Wikipedia",search_wikipedia
+"Search for Nikola Tesla on Wikipedia",search_wikipedia
+
+"What's the weather today?",get_weather
+"Check today's weather",get_weather
+"Tell me the weather forecast",get_weather
+"What's the weather like?",get_weather
+"Is it going to rain today?",get_weather
+"What's the temperature outside?",get_weather
+"Give me the weather update",get_weather
+"How's the weather today?",get_weather
+"Tell me today's forecast",get_weather
+"Is it sunny outside?",get_weather
+"What's the weather report for today?",get_weather
+"Show me the weather forecast",get_weather
+"Is it cold today?",get_weather
+"What's the weather in New York?",get_weather
+"How’s the weather looking today?",get_weather
+
+"Check my internet speed",check_internet_speed
+"How fast is the internet?",check_internet_speed
+"Run a speed test",check_internet_speed
+"Test the internet connection",check_internet_speed
+"Measure the network speed",check_internet_speed
+"Show me the internet speed",check_internet_speed
+"Diagnose the internet speed",check_internet_speed
+"How fast is my Wi-Fi?",check_internet_speed
+"Check the current internet speed",check_internet_speed
+"Test the Wi-Fi speed",check_internet_speed
+"What's my download speed?",check_internet_speed
+"Is my internet connection fast?",check_internet_speed
+"Run a speed test for the internet",check_internet_speed
+"Check the upload speed",check_internet_speed
+"Perform a network speed test",check_internet_speed
+
+"Minimize the window",minimize_window
+"Hide the window",minimize_window
+"Minimize the current window",minimize_window
+"Can you minimize the screen?",minimize_window
+"Shrink the window",minimize_window
+"Minimize this",minimize_window
+"Put the window down",minimize_window
+"Lower the window",minimize_window
+"Hide the active window",minimize_window
+"Reduce the window size",minimize_window
+"Make the window smaller",minimize_window
+"Minimize everything",minimize_window
+"Close the window but don't exit",minimize_window
+"Take this window down",minimize_window
+"Minimize all open windows",minimize_window
+
+"Maximize the window",maximize_window
+"Enlarge the window",maximize_window
+"Open the window fully",maximize_window
+"Make the window bigger",maximize_window
+"Maximize this",maximize_window
+"Bring the window to full screen",maximize_window
+"Make the window full size",maximize_window
+"Expand the window",maximize_window
+"Show the full window",maximize_window
+"Maximize the current screen",maximize_window
+"Make the screen bigger",maximize_window
+"Restore the window to full size",maximize_window
+"Increase the window size",maximize_window
+"Expand the current window",maximize_window
+"Open the window to full screen",maximize_window
+
+"Read the PDF",read_pdf
+"Summarize the PDF",read_pdf
+"Analyze the PDF",read_pdf
+"Read a book for me",read_pdf
+"Open and read the PDF file",read_pdf
+"Give me a summary of the PDF",read_pdf
+"Start reading the document",read_pdf
+"Show me the contents of the PDF",read_pdf
+"Can you read this PDF file?",read_pdf
+"Summarize the document for me",read_pdf
+"Analyze the text in this PDF",read_pdf
+"Read this eBook for me",read_pdf
+"Can you summarize this book?",read_pdf
+"Read the text from this PDF",read_pdf
+"Go through the PDF and summarize",read_pdf
+
+"Detect the object in front of me.",object_detection
+"Identify what's right in front of me.",object_detection
+"Show me the objects ahead.",object_detection
+"Scan the area in front of me for objects.",object_detection
+"Find out what object is before me.",object_detection
+"Spot the item in front of me.",object_detection
+"Analyze the objects directly ahead.",object_detection
+"Locate the object in my line of sight.",object_detection
+"Check what's immediately in front of me.",object_detection
+"Examine the object right before me.",object_detection
+"What object is in front of me?",object_detection
+"Can you see what's ahead?",object_detection
+"Do you detect any objects in my path?",object_detection
+"What's the thing directly in front of me?",object_detection
+"Is there anything in front of me?",object_detection
+"Identify the item I'm looking at.",object_detection
+"What's the object I'm facing?",object_detection
+"Can you tell me what's ahead?",object_detection
+"What do you see in front of me?",object_detection
+"Are there any objects in my view?",object_detection
+"Recognize the object before me.",object_detection
+"Point out the item in my front view.",object_detection
+"Assess what's directly ahead.",object_detection
+"Spot any things in front of me.",object_detection
+"Survey the area in front of me for items.",object_detection
+"Detect objects within my immediate vicinity.",object_detection
+"Identify things that are ahead of me.",object_detection
+"Locate items right in front of me.",object_detection
+"Scan what's directly before my eyes.",object_detection
+"Find objects in my forward view.",object_detection
+"Please detect objects that are in front of me.",object_detection
+"Could you identify what's right before my eyes?",object_detection
+"I want to know what object lies ahead.",object_detection
+"Tell me about the things directly ahead of me.",object_detection
+"Could you scan and recognize the object I'm facing?",object_detection
+"I'd like you to spot any items in front of me.",object_detection
+"Please analyze what's immediately in my view.",object_detection
+"Can you help me identify objects in my forward direction?",object_detection
+"I need assistance in detecting what's in front of me.",object_detection
+"Please locate and describe the object ahead.",object_detection
+"Scan the front area for objects.",object_detection
+"Identify and describe the object ahead.",object_detection
+"Spot and tell me about the item in front.",object_detection
+"Analyze and report what's directly ahead.",object_detection
+"Locate and inform me about the object before me.",object_detection
+"Detect the object in front of me and describe it.",object_detection
+"Identify what's ahead and provide details.",object_detection
+"Scan for objects in my path and tell me about them.",object_detection
+"Find out what's directly in front of me and give me information.",object_detection
+"Spot the item before me and explain what it is.",object_detection
+
