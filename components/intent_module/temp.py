@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 import os
 
 project_root = "/home/sean/repos/project_repos/VisionAssistBackend"
-dataset_path = os.path.join(project_root, 'data/dataset.csv')
+dataset_path = os.path.join(project_root, 'data/dataset1.csv')
 label_encoder_path = os.path.join(project_root, 'data/label_encoder.pkl')
 
 # Load dataset and fit LabelEncoder

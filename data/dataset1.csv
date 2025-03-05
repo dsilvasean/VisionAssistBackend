@@ -1,0 +1,212 @@
+input,intent
+"Check the system status",check_system_status
+"What’s the current system status?",check_system_status
+"Show me the system status",check_system_status
+"Check the health of the system",check_system_status
+"How’s the system performing?",check_system_status
+"Tell me the system status",check_system_status
+"Can you show system health?",check_system_status
+"What's the status of the system?",check_system_status
+"Show the status of my system",check_system_status
+"How is the system running?",check_system_status
+
+"Hello",greet
+"Hi there",greet
+"Good morning",greet
+"Good evening",greet
+"Hey",greet
+"Hello assistant",greet
+"Hi, how are you?",greet
+"Hey, good to see you",greet
+"Hi there, Eve",greet
+"Greetings",greet
+"Good day to you",greet
+"What's up?",greet
+"Hi Eve",greet
+"How’s it going?",greet
+"Hey, how are you?",greet
+
+"Detect the objects in front of me.",detect_objects
+"Identify what's directly in front of me.",detect_objects
+"Show me the objects ahead.",detect_objects
+"Scan the area for objects in front of me.",detect_objects
+"What objects are in front of me?",detect_objects
+"Can you detect the objects in my path?",detect_objects
+"Analyze what's right before me.",detect_objects
+"Find out what's directly ahead.",detect_objects
+"Spot the items in my line of sight.",detect_objects
+"Recognize any objects in front of me.",detect_objects
+"Locate objects that are ahead of me.",detect_objects
+"Identify things that are right before me.",detect_objects
+"Do you see any items in my direction?",detect_objects
+"Assess what’s in front of me.",detect_objects
+"Are there any objects blocking my path?",detect_objects
+
+"Detect the object in front of me.",object_detection
+"Identify what's right in front of me.",object_detection
+"Show me the objects ahead.",object_detection
+"Scan the area in front of me for objects.",object_detection
+"Find out what object is before me.",object_detection
+"Spot the item in front of me.",object_detection
+"Analyze the objects directly ahead.",object_detection
+"Locate the object in my line of sight.",object_detection
+"Check what's immediately in front of me.",object_detection
+"Examine the object right before me.",object_detection
+"What object is in front of me?",object_detection
+"Can you see what's ahead?",object_detection
+"Do you detect any objects in my path?",object_detection
+"What's the thing directly in front of me?",object_detection
+"Is there anything in front of me?",object_detection
+"Identify the item I'm looking at.",object_detection
+"What's the object I'm facing?",object_detection
+"Can you tell me what's ahead?",object_detection
+"What do you see in front of me?",object_detection
+"Are there any objects in my view?",object_detection
+"Recognize the object before me.",object_detection
+"Point out the item in my front view.",object_detection
+"Assess what's directly ahead.",object_detection
+"Spot any things in front of me.",object_detection
+"Survey the area in front of me for items.",object_detection
+"Detect objects within my immediate vicinity.",object_detection
+"Identify things that are ahead of me.",object_detection
+"Locate items right in front of me.",object_detection
+"Scan what's directly before my eyes.",object_detection
+"Find objects in my forward view.",object_detection
+"Please detect objects that are in front of me.",object_detection
+"Could you identify what's right before my eyes?",object_detection
+"I want to know what object lies ahead.",object_detection
+"Tell me about the things directly ahead of me.",object_detection
+"Could you scan and recognize the object I'm facing?",object_detection
+"I'd like you to spot any items in front of me.",object_detection
+"Please analyze what's immediately in my view.",object_detection
+"Can you help me identify objects in my forward direction?",object_detection
+"I need assistance in detecting what's in front of me.",object_detection
+"Please locate and describe the object ahead.",object_detection
+"Scan the front area for objects.",object_detection
+"Identify and describe the object ahead.",object_detection
+"Spot and tell me about the item in front.",object_detection
+"Analyze and report what's directly ahead.",object_detection
+"Locate and inform me about the object before me.",object_detection
+"Detect the object in front of me and describe it.",object_detection
+"Identify what's ahead and provide details.",object_detection
+"Scan for objects in my path and tell me about them.",object_detection
+"Find out what's directly in front of me and give me information.",object_detection
+"Spot the item before me and explain what it is.",object_detection
+
+"Add a new user.",add_user
+"Register a new user for me.",add_user
+"Can you add a new user to the system?",add_user
+"Create a new user profile.",add_user
+"I want to register a new user.",add_user
+"Set up a new user account.",add_user
+"Sign up a new user.",add_user
+"Register a user in the system.",add_user
+"Can you create a new user account?",add_user
+"Add someone as a new user.",add_user
+"Add another user to the system.",add_user
+"Make a new user profile.",add_user
+"I need a new user registered.",add_user
+"Can you set up an account for a new user?",add_user
+"Create an account for a new person.",add_user
+
+"What time is it?",check_time
+"Check the current time for me.",check_time
+"Tell me the time.",check_time
+"What's the time right now?",check_time
+"Can you show me the time?",check_time
+"Give me the current time.",check_time
+"I want to know the time.",check_time
+"What's the time now?",check_time
+"Tell me what time it is.",check_time
+"Show me the exact time.",check_time
+"Can you check the time?",check_time
+"What's the time on the clock?",check_time
+"Tell me the present time.",check_time
+"Let me know the current time.",check_time
+"Can you confirm the time for me?",check_time
+
+"Exit the application.",exit
+"Close the assistant.",exit
+"Can you shut down?",exit
+"End this session, please.",exit
+"Stop the program.",exit
+"Quit the assistant.",exit
+"I want to exit.",exit
+"Finish and close.",exit
+"Turn off the application.",exit
+"That's enough, exit now.",exit
+"I am done, exit the program.",exit
+"Can you turn off the assistant?",exit
+"Terminate the session.",exit
+"Can you leave now?",exit
+"End this, I want to quit.",exit
+
+"Read out the words in front of me.",read_text
+"Can you read the content on the page?",read_text
+"Help me by reading the words ahead.",read_text
+"Tell me what’s written in this document.",read_text
+"Describe the text I am facing.",read_text
+"Can you read the text from the screen?",read_text
+"Is there any text in front of me?",read_text
+"Read the writing in front of me.",read_text
+"Tell me the words in front of my eyes.",read_text
+"Scan and read the text for me.",read_text
+"Can you identify and read the text ahead?",read_text
+"Tell me what the screen says.",read_text
+"Please read the text out loud.",read_text
+"Can you extract the text in front of me?",read_text
+"Please help me read this text.",read_text
+"Scan the document and read it aloud.",read_text
+"Can you summarize the writing in front of me?",read_text
+"Please identify and read the text for me.",read_text
+"Go through the page and read the content.",read_text
+"Can you read out the text in the document?",read_text
+"Can you tell me what this paper says?",read_text
+
+"Can you recognize the face in front of me?",face_recognition
+"Identify the person in front of me.",face_recognition
+"Who is standing in front of me?",face_recognition
+"Recognize the face ahead.",face_recognition
+"Tell me who this person is.",face_recognition
+"Can you identify the person nearby?",face_recognition
+"Who am I looking at?",face_recognition
+"Find out who is in front of me.",face_recognition
+"Can you recognize the person facing me?",face_recognition
+"Is there a known face in front of me?",face_recognition
+"Look at the person ahead and tell me who it is.",face_recognition
+"Do you know who this is?",face_recognition
+"Please recognize the face I am seeing.",face_recognition
+"Identify this person for me.",face_recognition
+"Analyze the face in front of me.",face_recognition
+"Who is this person?",face_recognition
+"Can you tell me the identity of this person?",face_recognition
+"Check if this face is known.",face_recognition
+"Recognize and identify the face in my view.",face_recognition
+"Do you recognize the person here?",face_recognition
+"Tell me if you know this person.",face_recognition
+"Can you recognize who is in front of me?",face_recognition
+"Help me identify this face.",face_recognition
+"Is this a recognized face?",face_recognition
+"Analyze and recognize the face here.",face_recognition
+"Can you scan this face for recognition?",face_recognition
+"Identify who’s in front of me.",face_recognition
+"Use face recognition to identify this person.",face_recognition
+"Scan the face and tell me who it is.",face_recognition
+"Do you recognize this person?",face_recognition
+
+"Tell me the weather forecast",weather
+"How's the weather today?",weather
+"What's the weather report for today?",weather
+"Will it rain today?",weather
+"What's the current weather?",weather
+"Give me the temperature",weather
+"Is it cold today?",weather
+"Tell me today's forecast",weather
+"What's the forecast for tomorrow?",weather
+"What's the weather like outside?",weather
+"Show me the temperature in Celsius",weather
+"Is it going to be hot today?",weather
+"Check the weather for this weekend",weather
+"Will it snow today?",weather
+"What's the humidity level?",weather
+

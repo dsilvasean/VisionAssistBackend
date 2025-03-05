@@ -1,8 +1,10 @@
 from typing import Union
 
-uvicorn main:main --reload
+# uvicorn main:main --reload
+# uvicorn main:app --reload
 
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 import asyncio
 
@@ -18,12 +20,15 @@ from components.intent_module.train import IntentClassifier
 
 app = FastAPI()
 
-PROJECT_ROOT = "/home/sean/repos/project_repos/VisionAssistBackend"
+PROJECT_ROOT = "/home/kabir/repos/VisionAssistBackend"
 MODEL_DIR = os.path.join(PROJECT_ROOT, 'data/fine_tuned_model')
 LABEL_ENCODER_PATH = os.path.join(PROJECT_ROOT, 'data/label_encoder.pkl')
 
 classifier = IntentClassifier(MODEL_DIR, LABEL_ENCODER_PATH)
 
+class ItemRequest(BaseModel):
+    data: str
+    q: Union[str, None] = None
 
 @app.get("/")
 async def read_root():
@@ -31,8 +36,8 @@ async def read_root():
 
 
 # Updated endpoint to accept a string as item_id
-@app.get("/items/{item_id}")
-async def read_item(item_id: str, q: Union[str, None] = None):
+@app.post("/intent/")
+async def get_intent(request: ItemRequest):
     # Use the string `item_id` for prediction
-    predicted_intent = classifier.predict(item_id)
-    return {"item_id": item_id, "predicted_intent": predicted_intent}
+    predicted_intent = classifier.predict(request.data)
+    return {"item_id": request.data, "predicted_intent": predicted_intent}

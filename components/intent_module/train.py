@@ -80,7 +80,7 @@ class IntentTrainer:
         self.model.save_pretrained(output_dir, safe_serialization=True)
     
     def run(self):
-        data_path = os.path.join(self.project_root, 'data/dataset.csv')
+        data_path = os.path.join(self.project_root, 'data/dataset1.csv')
         results_dir = os.path.join(self.project_root, 'data/results')
         model_dir = os.path.join(self.project_root, 'data/fine_tuned_model')
 
